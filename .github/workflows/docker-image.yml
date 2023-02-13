@@ -31,9 +31,9 @@ jobs:
       run: |
         docker build -t herrob1982/docker-graphql1:0.0.2 .  
         
-#     - name: Push Docker Image
-#       run: |
-#         docker push herrob1982/docker-graphql1:0.0.2
+    - name: Push Docker Image
+      run: |
+         docker push herrob1982/docker-graphql1:0.0.2
         
         
         
